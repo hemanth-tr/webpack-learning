@@ -1,0 +1,19 @@
+{
+  "name": "webpack-learning",
+  "version": "1.0.0",
+  "description": "learning webpack from scratch",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hemanth-tr/webpack-learning.git"
+  },
+  "author": "Hemanth",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hemanth-tr/webpack-learning/issues"
+  },
+  "homepage": "https://github.com/hemanth-tr/webpack-learning#readme"
+}
