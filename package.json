@@ -2,9 +2,10 @@
   "name": "webpack-learning",
   "version": "1.0.0",
   "description": "learning webpack from scratch",
-  "main": "index.js",
+  "private": "true",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "webpack --mode development",
+    "prod": "webpack --mode production"
   },
   "repository": {
     "type": "git",
