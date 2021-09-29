@@ -1,13 +1,8 @@
 function sayHello() {
-    alert("Hello");
+    alert("hello");
 }
 
-function addElement() {
-    const button = document.createElement('button');
-    button.innerHTML = "Click here";
-    button.onclick = sayHello;
-
-    return button;
-}
-
-document.body.appendChild(addElement());
+const buttons = document.querySelectorAll('.say-hello');
+buttons.forEach(button => {
+    button.addEventListener('click', sayHello);
+})
